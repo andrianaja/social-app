@@ -328,16 +328,42 @@ function Navbar() {
 
       <div className="max-w-7xl mx-auto px-6 py-4 relative flex items-center justify-center">
 
+       
+
         {/* LOGO */}
         <Link
           to="/"
           className="absolute left-6 text-3xl font-extrabold text-blue-600 tracking-tight"
         >
-          SocialApp
+          
         </Link>
 
         {/* CENTER MENU */}
         <div className="flex items-center gap-5">
+
+           {/* HOME */}
+          <Link
+            to="/"
+              className="bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-white w-14 h-14 rounded-2xl flex items-center justify-center text-2xl transition hover:scale-105 shadow-sm"
+          >
+            🏠
+         </Link>
+
+          {/* FRIENDS */}
+          <Link
+            to="/friends"
+              className="bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-white w-14 h-14 rounded-2xl flex items-center justify-center text-2xl transition hover:scale-105 shadow-sm"
+            >
+            👥
+         </Link>
+
+          {/* CHAT */}
+          <Link
+            to="/chat"
+               className="bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-white w-14 h-14 rounded-2xl flex items-center justify-center text-2xl transition hover:scale-105 shadow-sm"
+             >
+              💬
+          </Link>
 
           {/* PROFILE */}
           <Link
